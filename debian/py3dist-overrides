@@ -1,0 +1,5 @@
+attrs python3-attr
+linkify-it-py python3-linkify-it
+uc-micro-py python3-uc-micro
+pyyaml python3-yaml
+xdg-base-dirs python3-xdg-base-dirs

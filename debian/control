@@ -1,0 +1,108 @@
+Source: bagels
+Section: python
+Priority: optional
+Maintainer: Vítězslav Dvořák <info@vitexsoftware.cz>
+Build-Depends:
+ appstream,
+ debhelper-compat (= 13),
+ dh-python,
+ help2man,
+ pybuild-plugin-pyproject,
+ python3-aiohappyeyeballs,
+ python3-aiohttp,
+ python3-aiohttp-jinja2,
+ python3-aiosignal,
+ python3-all,
+ python3-annotated-types,
+ python3-attr,
+ python3-blinker,
+ python3-click,
+ python3-click-default-group,
+ python3-dateutil,
+ python3-frozenlist,
+ python3-hatchling,
+ python3-idna,
+ python3-itsdangerous,
+ python3-linkify-it,
+ python3-markdown-it,
+ python3-markupsafe,
+ python3-mdit-py-plugins,
+ python3-mdurl,
+ python3-msgpack,
+ python3-multidict,
+ python3-numpy,
+ python3-packaging,
+ python3-platformdirs,
+ python3-plotext,
+ python3-propcache,
+ python3-pydantic,
+ python3-pydantic-core,
+ python3-pygments,
+ python3-requests,
+ python3-rich,
+ python3-sqlalchemy,
+ python3-textual,
+ python3-tomli,
+ python3-typing-extensions,
+ python3-uc-micro,
+ python3-werkzeug,
+ python3-xdg-base-dirs,
+ python3-yaml,
+ python3-yarl,
+Standards-Version: 4.7.0
+Homepage: https://github.com/EnhancedJax/Bagels
+Vcs-Git: https://github.com/Vitexus/Bagels.git
+Vcs-Browser: https://github.com/Vitexus/Bagels
+Rules-Requires-Root: no
+
+Package: bagels
+Architecture: all
+Depends:
+ ${misc:Depends},
+ ${python3:Depends},
+ python3-aiohappyeyeballs,
+ python3-aiohttp,
+ python3-aiohttp-jinja2,
+ python3-aiosignal,
+ python3-annotated-types,
+ python3-attr,
+ python3-blinker,
+ python3-click,
+ python3-click-default-group,
+ python3-dateutil,
+ python3-frozenlist,
+ python3-idna,
+ python3-itsdangerous,
+ python3-linkify-it,
+ python3-markdown-it,
+ python3-markupsafe,
+ python3-mdit-py-plugins,
+ python3-mdurl,
+ python3-msgpack,
+ python3-multidict,
+ python3-numpy,
+ python3-packaging,
+ python3-platformdirs,
+ python3-plotext,
+ python3-propcache,
+ python3-pydantic,
+ python3-pydantic-core,
+ python3-pygments,
+ python3-requests,
+ python3-rich,
+ python3-sqlalchemy,
+ python3-textual,
+ python3-tomli,
+ python3-typing-extensions,
+ python3-uc-micro,
+ python3-werkzeug,
+ python3-xdg-base-dirs,
+ python3-yaml,
+ python3-yarl,
+Description: Powerful terminal expense tracker
+ Bagels is a terminal user interface (TUI) application for tracking
+ personal expenses, budgets, and accounts directly from the command
+ line, without needing a browser or graphical environment.
+ .
+ It supports multiple accounts, recurring transactions, budget
+ templates, and rich terminal charts and reports.

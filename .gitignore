@@ -5,3 +5,13 @@ dist/
 Bagels.egg-info/
 instance/
 snapshot_report.html
+
+# Debian build artifacts
+.pybuild/
+debian/.debhelper/
+debian/*.debhelper
+debian/*.substvars
+debian/files
+debian/debhelper-build-stamp
+debian/bagels/
+debian/bagels.1

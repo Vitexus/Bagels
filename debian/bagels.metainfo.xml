@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component type="console-application">
+  <id>com.github.enhancedjax.bagels</id>
+  <metadata_license>MIT</metadata_license>
+  <project_license>GPL-3.0-or-later</project_license>
+  <name>Bagels</name>
+  <summary>Powerful terminal expense tracker</summary>
+  <description>
+    <p>
+      Bagels is a terminal user interface (TUI) application for tracking
+      personal expenses, budgets, and accounts directly from the command
+      line, without needing a browser or graphical environment.
+    </p>
+    <p>
+      It supports multiple accounts, recurring transactions, budget
+      templates, and rich terminal charts and reports.
+    </p>
+  </description>
+  <icon type="stock">com.github.enhancedjax.bagels</icon>
+  <provides>
+    <binary>bagels</binary>
+  </provides>
+  <url type="homepage">https://github.com/EnhancedJax/Bagels</url>
+</component>
